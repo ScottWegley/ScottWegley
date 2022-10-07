@@ -9,6 +9,7 @@
 -   VB.net
 -   TypeScript
 -   HTML
+-   CSS
 -   Python
 # 📫 How to reach me ...
 -   scbrwegley@protonmail.ch
