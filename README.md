@@ -1,13 +1,14 @@
 # 👋 Hi, I’m @ScottWegley
 # 👀 I’m interested in ...
 -   Cybersecurity
+-   Software Engineering
 -   Neural Networks
 -   Machine Learning
 # ⌨️My most used languages are ...
 -   Java
 -   JavaScript
--   VB.net
 -   TypeScript
+-   VB.net
 -   HTML
 -   CSS
 -   Python
