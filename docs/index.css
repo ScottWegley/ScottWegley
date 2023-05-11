@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+}
+
+div#headerDiv {
+    margin-top: 1%;
+}
+
+#nameHeading {
+    margin-bottom: 0;
+}
+
+div#introTextDiv {
+    margin: auto;
+    width: 75%;
+    text-align: center;
+}
+
+.introItem {
+    margin-top: 0;
+    padding-top: 1%;
+    margin-bottom: 0;
+}
