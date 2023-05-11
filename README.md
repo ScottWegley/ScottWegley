@@ -4,7 +4,7 @@
 -   Software Engineering
 -   Neural Networks
 -   Machine Learning
-# ⌨️My most used languages are ...
+# ⌨️ My most used languages are ...
 -   Java
 -   JavaScript
 -   TypeScript
@@ -14,6 +14,8 @@
 -   Python
 # 📫 How to reach me ...
 -   scbrwegley@protonmail.ch
+# 📗 Check out my website for more info
+https://scottwegley.github.io/ScottWegley/
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=scottwegley&count_private=true&theme=merko)
 <!---
