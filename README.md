@@ -12,7 +12,7 @@
 -   HTML
 -   CSS
 -   Python
-# 📫 How to reach me ...
+# 📫 How to reach me
 -   scbrwegley@protonmail.ch
 # 📗 Check out my website for more info
 https://scottwegley.github.io/ScottWegley/
