@@ -43,6 +43,10 @@ div#orgFIRSTDivG2 {
     justify-content: center;
 }
 
+div#orgFIRSTDivG1 {
+    margin-bottom: 2px;
+}
+
 div#selfAdDiv p,
 div#knownTechDiv p {
     text-align: center;
@@ -83,6 +87,7 @@ div#knownTechDiv p {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: rgb(65, 65, 65);
+    font-size: small;
 }
 
 div#orgFTCDiv,
@@ -94,7 +99,7 @@ div#orgFIRSTVolunteerDiv {
     margin-right: 5px;
 }
 
-div#orgFIRSTDiv{
+div#orgFIRSTDiv {
     text-align: center;
 }
 
