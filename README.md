@@ -9,13 +9,12 @@
 -   JavaScript
 -   TypeScript
 -   VB.net
+-   C++
 -   HTML
 -   CSS
 -   Python
 # 📫 How to reach me
 -   scbrwegley@protonmail.ch
-# 📗 Check out my website for more info 🛠👷‍♂️UNDER CONSTRUCTION👷‍♂️🛠
-https://scottwegley.github.io/ScottWegley/
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=scottwegley&count_private=true&theme=merko)
 <!---
