@@ -1,0 +1,11 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'PaperMod'
+[params.homeInfoParams]
+  Title = "Hi, my name is Scott Wegley."
+  Content = "I'm a Cyber Security Engineer based out of Arizona with a passion for technology and learning."
+[params]
+  ShowBreadCrumbs = true
+  ShowReadingTime = true
+  ShowShareButtons = true
