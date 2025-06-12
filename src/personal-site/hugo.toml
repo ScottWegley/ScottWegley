@@ -2,3 +2,6 @@ baseURL = "https://scottwegley.github.io/ScottWegley/"
 languageCode = 'en-us'
 title = 'Personal Site'
 theme = 'hugo-PaperMod'
+
+[params]
+  env = "production"

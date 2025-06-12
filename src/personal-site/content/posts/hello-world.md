@@ -1,8 +1,8 @@
-+++
-date = '2025-06-10T19:45:51-07:00'
-draft = false
-title = 'Hello, World!'
-+++
+---
+title: "Hello, World!"
+date: 2025-06-10T19:45:51-07:00
+draft: false
+---
 
 I wanted to create a website for a few different reasons.
 - Replace a rather embarrassing years-old attempt at web design
