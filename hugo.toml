@@ -5,6 +5,10 @@ theme = 'hugo-PaperMod'
 
 [params]
   env = "production"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  disableSpecial1stPost = true
 
 # Menu configuration
 [[menu.main]]
