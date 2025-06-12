@@ -6,13 +6,14 @@ draft: false
 
 # Hi, I'm Scott Wegley.
 
-I'm a {{< age >}} year old Cyber Security Engineer @ PayPal in the Phoenix area.  I'm super passionate about technology in general, but especially Cyber Security.  
+I'm a {{< age >}} year old Cyber Security Engineer at PayPal in the Phoenix area. I'm passionate about technology and cybersecurity.
 
-### Degrees / Certifications
-- B.S. in Computer Science, California Lutheran University
-- M.S. in Information Technology w/ Cyber Security Emphasis, California Lutheran University
-- Certified in Cybersecurity, ISC2
+## What You'll Find Here
 
-### Blog
+This site serves as my digital home where I document my projects, and share insights.
 
-Check out my [blog posts](posts/) for updates and project write-ups!
+- **[About Me](about/)** - Learn more about my background, education, and experience
+- **[Blog Posts](posts/)** - Project write-ups, and thoughts on a variety of topics
+- **[Contact](contact/)** - Ways to get in touch
+
+Thanks for stopping by!
