@@ -9,7 +9,7 @@
 &lt;li>Host basic personal and contact information for anyone interested in connecting&lt;/li>
 &lt;li>Store occasional blog posts on any personal projects I do&lt;/li>
 &lt;/ul>
-&lt;p>I love working on projects, but I don&amp;rsquo;t have time to continually work on anything, meaning I end up setting aside and picking projects back up fairly often. Hopefully by writing blog posts about the things I work on, I will recall more about every project I pick back up.&lt;/p></description></item><item><title>About Me</title><link>https://scottwegley.github.io/ScottWegley/about/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://scottwegley.github.io/ScottWegley/about/</guid><description>&lt;p>Hi! I&amp;rsquo;m Scott Wegley, a &lt;span id="live-age" style="cursor: pointer; text-decoration: underline;">&lt;/span>&lt;script>
+&lt;p>I love working on projects, but I don&amp;rsquo;t have time to continually work on anything, meaning I end up setting aside and picking projects back up fairly often. Hopefully by writing blog posts about the things I work on, I will recall more about every project I pick back up.&lt;/p></description></item><item><title>About Me</title><link>https://scottwegley.github.io/ScottWegley/about/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://scottwegley.github.io/ScottWegley/about/</guid><description>&lt;p>Hi! I&amp;rsquo;m Scott Wegley, a &lt;span id="live-age" style="cursor: pointer; text-decoration: underline;" title="Click for more precision">&lt;/span>&lt;script>
 (function(){
 let showFullPrecision = false;
 function updateAge() {
@@ -19,6 +19,7 @@ const msPerYear = 365.2425 * 24 * 60 * 60 * 1000;
 const age = (now - dob) / msPerYear;
 const ageElement = document.getElementById('live-age');
 ageElement.textContent = showFullPrecision ? age.toFixed(8) : age.toFixed(3);
+ageElement.title = showFullPrecision ? 'Click for less precision' : 'Click for more precision';
 }
 document.getElementById('live-age').addEventListener('click', function() {
 showFullPrecision = !showFullPrecision;
