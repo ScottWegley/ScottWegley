@@ -14,7 +14,7 @@
 -   CSS
 -   Python
 # 📫 How to reach me
--   scbrwegley@protonmail.ch
+-   scbrwegley@pm.me
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=scottwegley&count_private=true&theme=merko)
 <!---
