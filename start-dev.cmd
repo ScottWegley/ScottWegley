@@ -1,0 +1,3 @@
+@echo off
+echo Starting Hugo development server...
+hugo server --buildDrafts --port 1313

@@ -1,8 +1,8 @@
-+++
-title = "Home"
-description = "Welcome to my Hugo site!"
-draft = false
-+++
+---
+title: "Home"
+description: "Welcome to my Hugo site!"
+draft: false
+---
 
 # Hi, I'm Scott Wegley.
 
@@ -16,4 +16,3 @@ I'm a {{< age >}} year old Cyber Security Engineer @ PayPal in the Phoenix area.
 ### Blog
 
 Check out my [blog posts](posts/) for updates and project write-ups!
-
