@@ -1,4 +1,4 @@
-<span id="live-age" style="cursor: pointer; text-decoration: underline;"></span><script>
+<span id="live-age" style="cursor: pointer; text-decoration: underline;" title="Click for more precision"></span><script>
 (function(){
     let showFullPrecision = false;
     
@@ -9,6 +9,9 @@
         const age = (now - dob) / msPerYear;
         const ageElement = document.getElementById('live-age');
         ageElement.textContent = showFullPrecision ? age.toFixed(8) : age.toFixed(3);
+        
+        // Update tooltip based on current state
+        ageElement.title = showFullPrecision ? 'Click for less precision' : 'Click for more precision';
     }
     
     document.getElementById('live-age').addEventListener('click', function() {
