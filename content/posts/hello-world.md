@@ -1,8 +1,8 @@
----
-title: "Hello, World!"
-date: 2025-06-10T19:45:51-07:00
-draft: false
----
++++
+date = '2025-06-10T19:45:51-07:00'
+draft = false
+title = 'Hello, World!'
++++
 
 I wanted to create a website for a few different reasons.
 - Replace a rather embarrassing years-old attempt at web design
@@ -17,4 +17,12 @@ For those unaware, Hugo is a static site generator that I'm using for this site.
 
 [React](https://react.dev/) was a buzzword in my brain, but feels daunting to learn entirely for personal use.  I can't justify the time investment when I don't see any professional opportunities in my future involving it.
 
-I've used [Svelte](https://svelte.dev/) before, and enjoyed it, but for that reason I chose not to use it again.  While I am prioritizing low friction, I also want to learn.  I was fairly set on a static site generator because I wanted something that GitHub pages would play nicely with out of the box; hosting things needs to wait while I finish my homelab.
+I've used [Svelte](https://svelte.dev/) before, and enjoyed it, but for that reason I chose not to use it again.  While I am prioritizing low friction, I also want to learn.  I was fairly set on a static site generator because I wanted something that GitHub pages would play nicely with out of the box; hosting things needs to wait while I finish my homelab.  
+
+[Hugo](https://gohugo.io/) stood out among all the options because it was written in Go, supported Markdown for page design, and boasted an impressive offering of features while still remaining fairly simple to set-up.  As far as my choice to use PaperMod, it simply looked the nicest aesthetically as I was browsing different Hugo themes.
+
+The advertised simple set-up was very accurate.  A simple `choco install hugo-extended` followed by `hugo new site <site-name>` and I was off to the races.  After cloning the PaperMod repo into themes and adding it as a submodule, the set-up process was over.  The hardest part (writing the first post and maintaining the motivation to keep posting) begins now, so hopefully I'm up to the task.
+
+As of this line, the entirety of this website has been covered.  It's unlikely there will be another post regarding this site while it's still in its infancy barring any radical changes I think of.  I'm still getting settled into my new role at PayPal, so I may pad this blog out with posts about projects that pre-date the blog for a while.  Once I've settled into my new routine, there will be projects of some kind.  I know better than to promise any sort of schedule or consistency, only that when there is a new project, there will be a blog post.
+
+Overall, I give this project a 7/10 for personal value.  I learned a new interesting technology in Hugo and created something that will hopefully facilitate future learning.  While a high quality piece of tech, Hugo has not enamored me in the same way other technologies have, thus no 10/10.
