@@ -1,0 +1,20 @@
+# Hugo build output
+public/
+resources/
+
+# Node modules (if you use npm for scripts)
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Hugo cache
+.hugo_build.lock
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
