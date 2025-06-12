@@ -1,0 +1,13 @@
+<span id="live-age"></span><script>
+(function(){
+    function updateAge() {
+        const dob = new Date('2003-07-29T00:00:00Z');
+        const now = new Date();
+        const msPerYear = 365.2425 * 24 * 60 * 60 * 1000;
+        const age = (now - dob) / msPerYear;
+        document.getElementById('live-age').textContent = age.toFixed(3);
+    }
+    setInterval(updateAge, 50);
+    updateAge();
+})();
+</script>
