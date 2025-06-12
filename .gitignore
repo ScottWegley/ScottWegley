@@ -23,5 +23,5 @@ docsycache/
 *.tmp
 *.swp
 
-# Git submodules
-/themes/PaperMod/.git
+# Ignore themes directory (managed as git submodules)
+themes/
