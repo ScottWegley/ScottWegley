@@ -22,6 +22,3 @@ docsycache/
 # Temporary files
 *.tmp
 *.swp
-
-# Ignore themes directory (managed as git submodules)
-themes/
