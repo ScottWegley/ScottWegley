@@ -65,7 +65,7 @@ jobs:
           cd src/personal-site
           hugo \
             --gc --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "https://scottwegley.github.io/ScottWegley/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
