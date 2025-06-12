@@ -1,7 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Home on Personal Site</title><link>https://scottwegley.github.io/ScottWegley/</link><description>Recent content in Home on Personal Site</description><generator>Hugo -- 0.146.0</generator><language>en-us</language><lastBuildDate>Tue, 10 Jun 2025 19:45:51 -0700</lastBuildDate><atom:link href="https://scottwegley.github.io/ScottWegley/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello, World!</title><link>https://scottwegley.github.io/ScottWegley/posts/hello-world/</link><pubDate>Tue, 10 Jun 2025 19:45:51 -0700</pubDate><guid>https://scottwegley.github.io/ScottWegley/posts/hello-world/</guid><description>&lt;p>I wanted to create a website for a few different reasons.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Hi, I'm Scott Wegley on Personal Site</title><link>https://scottwegley.github.io/ScottWegley/</link><description>Recent content in Hi, I'm Scott Wegley on Personal Site</description><generator>Hugo -- 0.146.0</generator><language>en-us</language><lastBuildDate>Thu, 12 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://scottwegley.github.io/ScottWegley/index.xml" rel="self" type="application/rss+xml"/><item><title>Contact</title><link>https://scottwegley.github.io/ScottWegley/contact/</link><pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate><guid>https://scottwegley.github.io/ScottWegley/contact/</guid><description>&lt;p>I&amp;rsquo;m always open to connecting with fellow Cyber Security professionals, tech enthusiasts, and anyone interested in discussing technology and security.&lt;/p>
+&lt;h2 id="professional-network">Professional Network&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>LinkedIn&lt;/strong>: &lt;a href="https://www.linkedin.com/in/scott-wegley-7446121a1/">Scott Wegley&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Email&lt;/strong>: &lt;a href="mailto:scbrwegley@pm.me">scbrwegley@pm.me&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Hello, World!</title><link>https://scottwegley.github.io/ScottWegley/posts/hello-world/</link><pubDate>Tue, 10 Jun 2025 19:45:51 -0700</pubDate><guid>https://scottwegley.github.io/ScottWegley/posts/hello-world/</guid><description>&lt;p>I wanted to create a website for a few different reasons.&lt;/p>
 &lt;ul>
 &lt;li>Replace a rather embarrassing years-old attempt at web design&lt;/li>
 &lt;li>Host basic personal and contact information for anyone interested in connecting&lt;/li>
 &lt;li>Store occasional blog posts on any personal projects I do&lt;/li>
 &lt;/ul>
-&lt;p>I love working on projects, but I don&amp;rsquo;t have time to continually work on anything, meaning I end up setting aside and picking projects back up fairly often. Hopefully by writing blog posts about the things I work on, I will recall more about every project I pick back up.&lt;/p></description></item></channel></rss>
+&lt;p>I love working on projects, but I don&amp;rsquo;t have time to continually work on anything, meaning I end up setting aside and picking projects back up fairly often. Hopefully by writing blog posts about the things I work on, I will recall more about every project I pick back up.&lt;/p></description></item><item><title>About Me</title><link>https://scottwegley.github.io/ScottWegley/about/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://scottwegley.github.io/ScottWegley/about/</guid><description>&lt;p>Hi! I&amp;rsquo;m Scott Wegley, a &lt;span id="live-age" style="cursor: pointer; text-decoration: underline;">&lt;/span>&lt;script>
+(function(){
+let showFullPrecision = false;
+function updateAge() {
+const dob = new Date('2003-07-29T00:00:00Z');
+const now = new Date();
+const msPerYear = 365.2425 * 24 * 60 * 60 * 1000;
+const age = (now - dob) / msPerYear;
+const ageElement = document.getElementById('live-age');
+ageElement.textContent = showFullPrecision ? age.toFixed(8) : age.toFixed(3);
+}
+document.getElementById('live-age').addEventListener('click', function() {
+showFullPrecision = !showFullPrecision;
+updateAge();
+});
+setInterval(updateAge, 50);
+updateAge();
+})();
+&lt;/script> year old Cyber Security Engineer at PayPal based in the Phoenix area.&lt;/p></description></item></channel></rss>
