@@ -13,3 +13,7 @@ I'm a {{< age >}} year old Cyber Security Engineer @ PayPal in the Phoenix area.
 - M.S. in Information Technology w/ Cyber Security Emphasis, California Lutheran University
 - Certified in Cybersecurity, ISC2
 
+### Blog
+
+Check out my [blog posts](/posts/) for updates and project write-ups!
+
