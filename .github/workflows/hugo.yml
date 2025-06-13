@@ -1,5 +1,6 @@
 name: Deploy Hugo site to Pages
 
+# Trigger the workflow on puch to main branch
 on:
   push:
     paths-ignore:
@@ -8,7 +9,6 @@ on:
       - "README.md"
     branches: 
       - main
-      - master
   workflow_dispatch:
     # manual run
     inputs:
@@ -23,10 +23,10 @@ permissions:
   pages: write
   id-token: write
 
-# Allow one concurrent deployment
+# Always prioritize the latest version of the action
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 # Default to bash
 defaults:
