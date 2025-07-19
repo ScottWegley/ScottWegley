@@ -81,7 +81,7 @@ Part-time assistant role managing the duty schedule for departmental tutoring. H
 ## Leadership & Volunteer Experience
 
 ### F.I.R.S.T. Robotics (For Inspiration and Recognition of Science and Technology)
-I've been involved with F.I.R.S.T. robotics since 4th grade and continue to volunteer and mentor to this day:
+I've been involved with F.I.R.S.T. Robotics since 4th grade and continue to volunteer and mentor to this day:
 
 - **Tournament Management:** Assisted with RoboRaptor Rumble (2016-2019), headed queuing team at Central California Championship (2019), and judged at La Reina Qualifier (2022)
 - **Mentorship:** Programming mentor for FRC Team 3863, FTC Team 11232, and department lead for FRC Team 6657

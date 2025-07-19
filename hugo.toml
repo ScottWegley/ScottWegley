@@ -9,6 +9,7 @@ theme = 'hugo-PaperMod'
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   disableSpecial1stPost = true
+  comments = true
 
 # Menu configuration
 [[menu.main]]
