@@ -27,10 +27,12 @@
       {{- partial "post_canonical.html" . -}}
     </div>
     {{- end }}
-    {{- if .Lastmod }}
-    <div class="post-meta">
-      <span title='{{ .Lastmod }}'>Updated: {{ .Lastmod.Format (default "January 2, 2006" site.Params.DateFormat) }}</span>
-    </div>
+    {{- if not .Params.hideupdated }}
+      {{- with .Params.lastmod }}
+      <div class="post-meta">
+        <span title='{{ . }}'>Updated: {{ . | time.Format (default "January 2, 2006" site.Params.DateFormat) }}</span>
+      </div>
+      {{- end }}
     {{- end }}
   </header>
   {{- $isHidden := (.Param "cover.hiddenInSingle") | default (.Param "cover.hidden") | default false }}

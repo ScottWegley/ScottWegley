@@ -3,6 +3,7 @@ title: "About Me"
 description: ""
 date: 2025-06-11
 draft: false
+hideupdated: true
 ---
 
 Hi! I'm Scott Wegley, a {{< age >}} year old Cyber Security Engineer at PayPal based in the Phoenix area.
@@ -11,7 +12,7 @@ Hi! I'm Scott Wegley, a {{< age >}} year old Cyber Security Engineer at PayPal b
 
 I'm passionate about technology, particularly cybersecurity, and I love working on miscellaneous tech projects. I started programming in 4th grade while competing in robotics tournaments through a non-profit called F.I.R.S.T. Since then, technology has captivated me. I continued to compete with F.I.R.S.T. through 12th grade, and I volunteer at tournaments and as a mentor to this day.
 
-My original love for programming led me to pursue my higher education as fast as possible. I enrolled at my local community college at 14 to get ahead in my general education and start taking more programming classes.
+My original love for programming led me to pursue my higher education as fast as possible. I enrolled at my local community college at as I started high school to get ahead in my general education and start taking more programming classes.
 
 Exploring the world of technology through academia led me to a long-term goal of Cyber Security. The field was a perfect fit, allowing me to combine my love of technology and problem-solving to make a fulfilling career.
 
