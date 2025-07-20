@@ -2,6 +2,7 @@
 date = '2025-06-10T19:45:51-07:00'
 draft = false
 title = 'Hello, World!'
+lastmod = '2025-07-19T17:20:00-07:00'
 +++
 
 I wanted to create a website for a few different reasons.
@@ -25,7 +26,7 @@ The advertised simple setup was very accurate.  A quick `choco install hugo-exte
 
 The last technical task to call the site good-to-go is to set up a deployment pipeline. This will ensure that whenever I push any updates to the GitHub repository for this site, it will automatically be rebuilt. I'll be using a basic GitHub action to take care of this, largely based on the template that the GitHub actions team has listed for Hugo sites. I recommend reading through my [YML File](https://github.com/ScottWegley/ScottWegley/blob/main/.github/workflows/hugo.yml) to understand the deployment process. While GitHub actions can seem intimidating if you are unfamiliar with the syntax, they are fairly legible if you just focus on reading line by line. 
 
-To provide a brief overview for this post, the action has two parts: `build` and `deploy`. The jobs run on an Ubuntu runner (a virtual machine that GitHub provides to execute your workflow). The build task downloads Hugo, [Dart Sass](https://sass-lang.com/dart-sass/) (a Dart implementation of [Syntactically Awesome Stylesheets](https://sass-lang.com/), a CSS extension), and uses the pre-installed Node.js available on all GitHub action runners. Then the site is built with Hugo, with the result uploaded as an artifact in the `/public` directory. Once this `build` job is finished, the `deploy` job runs the `deploy-pages` action native to GitHub Pages, which fetches that `/public` directory and serves it at my GitHub Pages URL.
+To provide a brief overview for this post, the action has two parts: `build` and `deploy`. The jobs run on an Ubuntu runner (a virtual machine that GitHub provides to execute your workflow). The build task downloads Hugo, [Dart Sass](https://sass-lang.com/dart-sass/) (a Dart implementation of [Syntactically Awesome Stylesheets](https://sass-lang.com/), a CSS extension), and uses the pre-installed Node.js available on all GitHub action runners. Then the site is built with Hugo, with the result uploaded as an artifact in the `/public` directory. Once this `build` job has completed, the `deploy` job runs the `deploy-pages` action native to GitHub Pages, which fetches that `/public` directory and serves it at my GitHub Pages URL.
 
 As of this line, the entirety of this website has been covered.  It's unlikely there will be another post regarding this site while it's still in its infancy barring any radical changes I think of.  I'm still getting settled into my new role at PayPal, so I may pad this blog out with posts about projects that pre-date the blog for a while.  Once I've settled into my new routine, there will be projects of some kind.  I know better than to promise any sort of schedule or consistency, only that when there is a new project, there will be a blog post.
 

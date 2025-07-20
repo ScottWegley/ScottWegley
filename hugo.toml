@@ -10,6 +10,14 @@ theme = 'hugo-PaperMod'
   ShowBreadCrumbs = true
   disableSpecial1stPost = true
   comments = true
+  enableGitInfo = true
+  ShowLastMod = true
+
+[frontmatter]
+  date = ['date', 'publishDate', 'lastmod']
+  expiryDate = ['expiryDate']
+  lastmod = [':git', 'lastmod', 'date', 'publishDate']
+  publishDate = ['publishDate', 'date']
 
 # Menu configuration
 [[menu.main]]
