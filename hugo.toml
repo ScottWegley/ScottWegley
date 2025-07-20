@@ -8,8 +8,12 @@ theme = 'hugo-PaperMod'
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
-  disableSpecial1stPost = true
   comments = true
+  enableGitInfo = true
+  ShowLastMod = true
+
+[frontmatter]
+  lastmod = ['lastmod', ':fileModTime', ':git', ':default']
 
 # Menu configuration
 [[menu.main]]
