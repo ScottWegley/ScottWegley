@@ -2,7 +2,6 @@
 date = '2025-06-10T19:45:51-07:00'
 draft = false
 title = 'Hello, World!'
-lastmod = '2025-07-19T17:20:00-07:00'
 +++
 
 I wanted to create a website for a few different reasons.
@@ -31,6 +30,3 @@ To provide a brief overview for this post, the action has two parts: `build` and
 As of this line, the entirety of this website has been covered.  It's unlikely there will be another post regarding this site while it's still in its infancy barring any radical changes I think of.  I'm still getting settled into my new role at PayPal, so I may pad this blog out with posts about projects that pre-date the blog for a while.  Once I've settled into my new routine, there will be projects of some kind.  I know better than to promise any sort of schedule or consistency, only that when there is a new project, there will be a blog post.
 
 Overall, I give this project a 8/10 for personal value. I learned a new interesting technology in Hugo and created something that will hopefully facilitate future learning. While it's a high quality piece of tech, Hugo has not enamored me in the same way other technologies have, thus no 10/10.
-
-#### Update from July 19th, 2025:
-I recently discovered a way to add a comment section under each post via an app called [https://giscus.app/](giscus).  It leverages GitHub's Discusiion feature to create a comment section under each blog post.  While this site is still fairly light on traffic, if there were ever an influx of visitors for any reason, now there is a place for dicussions.
