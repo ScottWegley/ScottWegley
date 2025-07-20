@@ -3,7 +3,7 @@ title: "About Me"
 description: ""
 date: 2025-06-11
 draft: false
-hideupdated: true
+lastmod: 2025-07-20
 ---
 
 Hi! I'm Scott Wegley, a {{< age >}} year old Cyber Security Engineer at PayPal based in the Phoenix area.
