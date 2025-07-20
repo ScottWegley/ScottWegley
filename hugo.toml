@@ -16,7 +16,7 @@ theme = 'hugo-PaperMod'
 [frontmatter]
   date = ['date', 'publishDate', 'lastmod']
   expiryDate = ['expiryDate']
-  lastmod = [':git', 'lastmod', 'date', 'publishDate']
+  lastmod = ['lastmod', ':git', 'modified', 'date']
 
 # Menu configuration
 [[menu.main]]
