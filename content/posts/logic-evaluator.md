@@ -60,4 +60,28 @@ I personally find `IFF` (read as If and only If) to be much more instinctive tha
 | F | T |   F   |
 | F | F |   T   |
 
-You can take any statement and change it's propositions to get T or F; the important part is understanding the way the operations work.  For a given operation, understanding with some inputs what are the outputs.  Having been programming for a while by the time I took this class, the logic section came fairly easy to me.  I distinctly recall early on into homework assignments full of truth tables for much more complicated statements with nested propositions thinking that a computer could do this easily if you could just explain the statement to a computer.
+You can take any statement and change it's propositions to get T or F; the important part is understanding the way the operations work.  For a given operation, understanding with some inputs what are the outputs.  Having been programming for a while by the time I took this class, the logic section came fairly easy to me.  I distinctly recall early on into homework assignments full of truth tables, with much more complicated statements with nested propositions, thinking that a computer could do this easily if you could just explain the statement to a computer.  Instead of analyzing statements like ` A ∧ B `, I was evaluating statements like
+`~(A∨B)∧(A→(C↔~B))`.  This was not usually just for the sake of evaluating a truth table; it was often part of the process for a proof, but those are beyond the scope of this tool.
+
+#### Truth Table for `~(A∨B)∧(A→(C↔~B))`
+
+| A | B | C | ~(A∨B) | C↔~B | A→(C↔~B) | ~(A∨B)∧(A→(C↔~B)) |
+|---|---|---|--------|-------|-----------|---------------------|
+| T | T | T |   F    |   F   |     F     |         F           |
+| T | T | F |   F    |   T   |     T     |         F           |
+| T | F | T |   F    |   T   |     T     |         F           |
+| T | F | F |   F    |   F   |     F     |         F           |
+| F | T | T |   F    |   F   |     T     |         F           |
+| F | T | F |   F    |   T   |     T     |         F           |
+| F | F | T |   T    |   T   |     T     |         T           |
+| F | F | F |   T    |   F   |     T     |         T           |
+
+Five years later, I thought back to the class randomly and decided it would bve a good use of my time to try and make that tool I had thought of real.  Evaluating any single expression is easy, as any programmer would know.  While I hesistate to use absolutes, I cannot think of any language that does not have `AND`, `OR`, and `NOT`, and adding `IF` and `IIF` is simple enough. (Though similar in name and function, the symbolic logic `IF` is different than the programming structure `IF`)
+
+#### Logical Equivalent of `A ↔ B` and `(A → B) ∧ (B → A)`
+| A | B | A ↔ B | A → B | (A → B) ∧ (B → A)|
+|---|---|-------|-------|------------------|
+| T | T |   T   |   T   |        T         |
+| T | F |   F   |   F   |        F         |
+| F | T |   F   |   T   |        F         |
+| F | F |   T   |   T   |        T         |
