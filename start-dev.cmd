@@ -1,3 +1,3 @@
 @echo off
 echo Starting Hugo development server...
-hugo server --buildDrafts --port 1313
+hugo server --buildDrafts --disableFastRender --port 1313
