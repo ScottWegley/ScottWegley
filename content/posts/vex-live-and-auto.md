@@ -1,6 +1,6 @@
 +++
 date = '2025-12-23T16:03:22-08:00'
-draft = true
+draft = false
 title = 'Vex TeleOp & Auto'
 lastmod = 2025-12-23
 +++

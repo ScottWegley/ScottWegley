@@ -1,6 +1,6 @@
 +++
 date = '2025-12-23T18:37:22-07:00'
-draft = true
+draft = false
 title = 'BlackJack Web App'
 lastmod = 2025-12-23
 +++
